@@ -8,7 +8,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex justify-center mb-8">
             <Image
-              src="/swadvice logo.png"
+              src="/swadvice-logo.png"
               alt="Swadvice"
               width={200}
               height={100}
