@@ -9,11 +9,12 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Image
-                src="/swadvice-logo.png"
+                src="https://images.pexels.com/photos/2180780/pexels-photo-2180780.jpeg"
                 alt="Swadvice"
                 width={120}
                 height={60}
-                className="h-auto"
+                className="h-auto object-contain"
+                priority
               />
             </div>
             <div className="hidden md:flex space-x-8">
