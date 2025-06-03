@@ -22,7 +22,7 @@ export default function Home() {
             Parce qu'un monde plus intelligent ne vaut rien s'il n'est pas aussi plus humain.
           </p>
           <p className="text-lg mb-8">
-            Swadvice est un cabinet de conseil nouvelle génération qui accompagne les entreprises à forte ambition dans leurs transformations organisationnelles, digitales et culturelles.
+            Swadvice est un cabinet de conseil nouvelle génération basé à Montpellier qui accompagne les entreprises à forte ambition dans leurs transformations organisationnelles, digitales et culturelles.
           </p>
           <button className="bg-sw-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-sw-green/90 transition-colors">
             👉 Réserver un échange stratégique
@@ -119,6 +119,10 @@ export default function Home() {
               <span className="text-2xl">🎓</span>
               <p className="text-sw-blue">Chaque mission laisse votre entreprise plus autonome.</p>
             </div>
+            <div className="flex items-start space-x-4">
+              <span className="text-2xl">📍</span>
+              <p className="text-sw-blue">Ancrés en Occitanie, connectés partout.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -129,7 +133,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-sw-blue">🌍 Une équipe de terrain, humaine et passionnée</h2>
           <div className="prose prose-lg max-w-3xl">
             <p className="mb-4">
-              Swadvice a été fondé par des consultants, coaches, entrepreneurs et techs convaincus que l'intelligence collective est la clé de toute transformation réussie.
+              Basés à Montpellier, au cœur de la French Tech Med, nous sommes une équipe de consultants, coaches, entrepreneurs et techs convaincus que l'intelligence collective est la clé de toute transformation réussie.
             </p>
             <p className="mb-4">
               On ne fait pas semblant. On vit ce qu'on enseigne.
@@ -157,10 +161,14 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 bg-sw-blue text-white">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div>
               <p className="mb-2">Contact : contact@swadvice.fr</p>
               <a href="#" className="text-sw-green hover:text-sw-green/80">Suivez-nous sur LinkedIn</a>
+            </div>
+            <div>
+              <p className="mb-2">📍 Montpellier, Occitanie</p>
+              <p>Au cœur de la French Tech Med</p>
             </div>
             <div className="text-sm">
               <a href="#" className="text-gray-400 hover:text-white mr-4">Mentions légales</a>
