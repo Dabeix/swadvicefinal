@@ -4,17 +4,34 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-gradient-to-r from-sw-blue to-sw-blue/90 text-white py-20">
+      <nav className="bg-white py-4 fixed w-full top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4">
-          <div className="flex justify-center mb-8">
-            <Image
-              src="/swadvice-logo.png"
-              alt="Swadvice"
-              width={200}
-              height={100}
-              className="mb-8"
-            />
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <Image
+                src="/swadvice-logo.png"
+                alt="Swadvice"
+                width={120}
+                height={60}
+                className="h-auto"
+              />
+            </div>
+            <div className="hidden md:flex space-x-8">
+              <a href="#why" className="text-sw-blue hover:text-sw-green transition-colors">Pourquoi on existe</a>
+              <a href="#how" className="text-sw-blue hover:text-sw-green transition-colors">Comment on travaille</a>
+              <a href="#offers" className="text-sw-blue hover:text-sw-green transition-colors">Nos offres</a>
+              <a href="#team" className="text-sw-blue hover:text-sw-green transition-colors">L'équipe</a>
+            </div>
+            <button className="bg-sw-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-sw-green/90 transition-colors">
+              Contact
+            </button>
           </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <header className="bg-gradient-to-r from-sw-blue to-sw-blue/90 text-white pt-32 pb-20">
+        <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Réconcilier l'Humain, l'Agilité et l'IA.
           </h1>
@@ -31,7 +48,7 @@ export default function Home() {
       </header>
 
       {/* Manifeste Section */}
-      <section className="py-16 bg-gray-50">
+      <section id="why" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-sw-blue">🧭 Pourquoi on existe</h2>
           <div className="prose prose-lg max-w-3xl">
@@ -49,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* Methods Section */}
-      <section className="py-16">
+      <section id="how" className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-sw-blue">🛠️ Comment on travaille</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -70,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* Offers Section */}
-      <section className="py-16 bg-gray-50">
+      <section id="offers" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-sw-blue">🚀 Nos offres</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -124,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 bg-gray-50">
+      <section id="team" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-sw-blue">🌍 Une équipe de terrain, humaine et passionnée</h2>
           <div className="prose prose-lg max-w-3xl">
