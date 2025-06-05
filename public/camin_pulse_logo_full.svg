@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .pulse { fill:none; stroke:#12D9C6; stroke-width:14; stroke-linejoin:round; stroke-linecap:round; }
+    .arrow { fill:#12D9C6; }
+    .txt { font-family:"DejaVu Sans", Arial, Helvetica, sans-serif; font-size:110px; fill:#FFFFFF; }
+  </style>
+  <rect width="800" height="300" fill="#082749" />
+  <polyline class="pulse" points="80,150 150,150 190,80 230,220 330,220 370,110 410,110 410,80 480,80" />
+  <polygon class="arrow" points="480,80 450,50 510,50" />
+  <text x="560" y="200" class="txt">Camin Pulse</text>
+</svg>
