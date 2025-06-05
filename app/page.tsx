@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -171,8 +172,12 @@ export default function Home() {
               <p>Au cœur de la French Tech Med</p>
             </div>
             <div className="text-sm">
-              <a href="#" className="text-gray-400 hover:text-white mr-4">Mentions légales</a>
-              <a href="#" className="text-gray-400 hover:text-white">Politique de confidentialité</a>
+              <Link href="/mentions-legales" className="text-gray-400 hover:text-white mr-4">
+                Mentions légales
+              </Link>
+              <Link href="/confidentialite" className="text-gray-400 hover:text-white">
+                Politique de confidentialité
+              </Link>
             </div>
           </div>
         </div>

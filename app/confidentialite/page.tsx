@@ -1,9 +1,20 @@
 import Link from 'next/link';
+import Breadcrumbs from '@/components/Breadcrumbs';
+
+export const metadata = {
+  title: 'Politique de Confidentialité | Camin Pulse',
+  description: 'Politique de confidentialité et protection des données personnelles de Camin Pulse. Découvrez comment nous protégeons vos informations.',
+  openGraph: {
+    title: 'Politique de Confidentialité | Camin Pulse',
+    description: 'Politique de confidentialité et protection des données personnelles de Camin Pulse. Découvrez comment nous protégeons vos informations.',
+  }
+};
 
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-white">
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 py-8">
+        <Breadcrumbs />
         <Link href="/" className="text-[#12D9C6] hover:text-[#12D9C6]/80 mb-8 inline-block">
           ← Retour à l'accueil
         </Link>

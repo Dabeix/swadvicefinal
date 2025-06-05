@@ -1,9 +1,20 @@
 import Link from 'next/link';
+import Breadcrumbs from '@/components/Breadcrumbs';
+
+export const metadata = {
+  title: 'Mentions Légales | Camin Pulse',
+  description: 'Mentions légales et informations juridiques de Camin Pulse, cabinet de conseil en transformation digitale basé à Montpellier.',
+  openGraph: {
+    title: 'Mentions Légales | Camin Pulse',
+    description: 'Mentions légales et informations juridiques de Camin Pulse, cabinet de conseil en transformation digitale basé à Montpellier.',
+  }
+};
 
 export default function LegalNotice() {
   return (
     <div className="min-h-screen bg-white">
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 py-8">
+        <Breadcrumbs />
         <Link href="/" className="text-[#12D9C6] hover:text-[#12D9C6]/80 mb-8 inline-block">
           ← Retour à l'accueil
         </Link>
