@@ -31,6 +31,50 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Founder's Message Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8 text-[#082749]">🎤 Mot de la fondatrice</h2>
+          <div className="prose max-w-4xl mx-auto">
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold mb-4 text-[#082749]">Remy Buffetto – Camin Pulse</h3>
+              <p className="italic text-gray-600 mb-6">
+                Chers partenaires, clients et ami·e·s de Camin Pulse,
+              </p>
+              <p className="mb-4">
+                Lorsque j&apos;ai lancé Camin Pulse, j&apos;ai choisi un nom qui raconte déjà une histoire : « Camin », le chemin, et « Pulse », le battement qui nous anime. Notre aventure est née d&apos;une conviction simple : chaque solution technologique doit remettre l&apos;humain au centre, tout en insufflant l&apos;énergie nécessaire pour avancer ensemble vers un avenir plus responsable.
+              </p>
+              <h4 className="text-xl font-semibold mt-6 mb-4 text-[#082749]">Nos valeurs nous guident au quotidien :</h4>
+              <ul className="space-y-4 mb-6">
+                <li className="flex items-start">
+                  <span className="font-semibold mr-2">Humanité d&apos;abord</span> – Nous créons des expériences qui améliorent concrètement la vie de celles et ceux qui les utilisent.
+                </li>
+                <li className="flex items-start">
+                  <span className="font-semibold mr-2">Innovation responsable</span> – Nos idées s&apos;appuient sur la recherche de sens : progrès, oui, mais jamais au détriment de l&apos;éthique ni de la planète.
+                </li>
+                <li className="flex items-start">
+                  <span className="font-semibold mr-2">Transparence</span> – Nous travaillons à visage découvert : parler vrai, partager nos réussites comme nos défis, c&apos;est le socle de la confiance.
+                </li>
+                <li className="flex items-start">
+                  <span className="font-semibold mr-2">Passion collective</span> – Le « pulse » de notre équipe : un esprit d&apos;entraide, de curiosité et de dépassement continu.
+                </li>
+              </ul>
+              <p className="mb-4">
+                Mon expertise, c&apos;est de relier les points : quinze ans passés à l&apos;inter-section de la stratégie numérique, du design d&apos;expérience et du management de projets innovants m&apos;ont appris que la magie naît quand on fait dialoguer la créativité et la rigueur. Je mets aujourd&apos;hui ce savoir-faire au service de nos clients pour transformer leurs idées en produits et services concrets, porteurs de valeur durable.
+              </p>
+              <p className="mb-4">
+                Ce « mot » est avant tout une invitation. Rejoignez-nous sur le chemin : questionnons, testons, grandissons. Chez Camin Pulse, nous croyons que chaque collaboration est un pas de plus vers une innovation qui bat au rythme de l&apos;humain.
+              </p>
+              <div className="mt-8">
+                <p className="mb-2">Avec enthousiasme,</p>
+                <p className="font-semibold">Remy Buffetto</p>
+                <p className="text-gray-600">Fondatrice & CEO, Camin Pulse</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Rest of the sections with updated colors */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
