@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'sw-green': '#8BA89B',
-        'sw-blue': '#1B2A41',
+        'camin-teal': '#12D9C6',
+        'camin-blue': '#082749',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
