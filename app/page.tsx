@@ -42,7 +42,7 @@ export default function Home() {
       {/* Founder's Message Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-[#082749] text-center">🎤 Mot de la fondateur</h2>
+          <h2 className="text-3xl font-bold mb-12 text-[#082749] text-center">🎤 Mot de le fondateur</h2>
           <div className="prose max-w-4xl mx-auto bg-gray-50 p-8 rounded-2xl shadow-lg">
             <div className="mb-8">
               <h3 className="text-2xl font-semibold mb-4 text-[#082749]">Remy Buffetto – Camin Pulse</h3>
