@@ -23,7 +23,7 @@ export default function Home() {
               Le pouls qui guide vos produits
             </h1>
             <p className="text-2xl text-center mb-6 text-gray-200">
-              Parce qu'un monde plus intelligent ne vaut rien s'il n'est pas aussi plus humain.
+              Parce qu'un monde plus intelligent ne vaut rien s'il n'est pas également plus humain.
             </p>
             <p className="text-xl text-center mb-12 text-gray-300">
               Camin Pulse est un cabinet de conseil nouvelle génération basé à Montpellier qui accompagne les entreprises à forte ambition dans leurs transformations organisationnelles, digitales et culturelles.
@@ -70,7 +70,7 @@ export default function Home() {
                 ))}
               </ul>
               <p className="mb-4">
-                Mon expertise, c'est de relier les points : quinze ans passés à l'inter-section de la stratégie numérique, du design d'expérience et du management de projets innovants m'ont appris que la magie naît quand on fait dialoguer la créativité et la rigueur. Je mets aujourd'hui ce savoir-faire au service de nos clients pour transformer leurs idées en produits et services concrets, porteurs de valeur durable.
+                Mon expertise, c'est de relier les points : quinze ans passés à l’intersection de la stratégie numérique, du design d'expérience et du management de projets innovants m'ont appris que la magie naît quand on fait dialoguer la créativité et la rigueur. Je mets aujourd'hui ce savoir-faire au service de nos clients pour transformer leurs idées en produits et services concrets, porteurs de valeur durable.
               </p>
               <p className="mb-4">
                 Ce « mot » est avant tout une invitation. Rejoignez-nous sur le chemin : questionnons, testons, grandissons. Chez Camin Pulse, nous croyons que chaque collaboration est un pas de plus vers une innovation qui bat au rythme de l'humain.
