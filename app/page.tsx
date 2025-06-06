@@ -121,7 +121,7 @@ export default function Home() {
               },
               {
                 icon: "🎯",
-                title: "Conseil sans compromis",
+                title: "Conseil engagé, sans concessions",
                 desc: "Pas de slide decks oubliés. Pas de consultants fantômes. On vous challenge, on construit avec vous, et on reste jusqu'au bout."
               }
             ].map((method, index) => (
