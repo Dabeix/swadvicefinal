@@ -16,7 +16,7 @@ export default function Home() {
                 alt="Camin Pulse"
                 width={300}
                 height={150}
-                className="mb-8"
+                priority
               />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-[#12D9C6]">
