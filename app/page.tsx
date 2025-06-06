@@ -206,7 +206,7 @@ export default function Home() {
               Basés à Montpellier, au cœur de la French Tech Med, nous sommes une équipe de consultants, coaches, entrepreneurs et techs convaincus que l'intelligence collective est la clé de toute transformation réussie.
             </p>
             <p className="mb-6 text-xl text-gray-700">
-              On ne fait pas semblant. On vit ce qu'on enseigne.
+              On ne fait pas semblant. Nous incarnons ce que nous transmettons.
             </p>
             <p className="text-xl text-gray-700">
               Et on choisit nos clients autant qu'ils nous choisissent.
