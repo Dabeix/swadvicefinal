@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <header className="relative bg-[#082749] text-white overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#082749] to-[#0d3b6d] z-0"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0a2c50] to-[#0d3b6d] z-0"></div>
         <div className="relative container mx-auto px-4 py-24 z-10">
           <div className="max-w-5xl mx-auto">
             <div className="flex justify-center mb-12">
