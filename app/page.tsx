@@ -12,7 +12,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto">
             <div className="flex justify-center mb-12">
               <Image
-                src="/camin_pulse_logo_full.svg"
+                src="/camin_new_logo.jpg"
                 alt="Camin Pulse"
                 width={300}
                 height={150}
