@@ -223,7 +223,7 @@ export default function Home() {
           <p className="text-xl mb-12 text-gray-200 max-w-2xl mx-auto">
             Prenez 30 minutes avec nous pour faire le point sur vos défis actuels. Pas de pitch. Juste un vrai échange.
           </p>
- <a href="https://calendly.com/d/csvb-b86-s8q" target="_blank" rel="noopener noreferrer">
+ <a href="https://calendly.com/contact-caminpulse" target="_blank" rel="noopener noreferrer">
   <button className="group bg-[#12D9C6] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#12D9C6]/90 transition-all transform hover:scale-105 flex items-center space-x-2 mx-auto">
     <span>👉 Planifier un rendez-vous</span>
     <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
