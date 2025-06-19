@@ -29,10 +29,12 @@ export default function Home() {
               Camin Pulse est un cabinet de conseil nouvelle génération basé à Montpellier qui accompagne les entreprises à forte ambition dans leurs transformations organisationnelles, digitales et culturelles.
             </p>
             <div className="flex justify-center">
-              <button className="group bg-[#12D9C6] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#12D9C6]/90 transition-all transform hover:scale-105 flex items-center space-x-2">
-                <span>👉 Réserver un échange stratégique</span>
-                <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+            <a href="https://calendly.com/contact-caminpulse" target="_blank" rel="noopener noreferrer">
+  <button className="group bg-[#12D9C6] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#12D9C6]/90 transition-all transform hover:scale-105 flex items-center space-x-2">
+    <span>👉 Réserver un échange stratégique</span>
+    <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+  </button>
+</a>
             </div>
           </div>
         </div>
